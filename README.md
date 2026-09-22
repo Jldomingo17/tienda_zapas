@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Novu | Tienda de zapatillas de segunda mano
 
-## Getting Started
+Tienda de zapatillas hecha con Next.js 16, React 19, TypeScript, Tailwind CSS v4 y Zustand.
 
-First, run the development server:
+Proyecto 2ASIR con Victor.
+
+## Requisitos
+
+- Node.js 20 o superior (`node -v` para comprobarlo). Descarga: https://nodejs.org
+- npm (viene incluido con Node.js)
+- Conexión a internet la primera vez, para instalar dependencias y cargar las fotos de las zapatillas (están alojadas en Unsplash).
+
+## Cómo ejecutarlo en local
 
 ```bash
+git clone https://github.com/Jldomingo17/tienda_zapas.git
+cd tienda_zapas
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre http://localhost:3000 en el navegador.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Comandos disponibles
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Comando | Qué hace |
+| --- | --- |
+| `npm run dev` | Servidor de desarrollo en http://localhost:3000 |
+| `npm run build` | Compila la versión de producción |
+| `npm run start` | Sirve la versión ya compilada |
+| `npm run lint` | Pasa ESLint |
 
-## Learn More
+## Estructura
 
-To learn more about Next.js, take a look at the following resources:
+```
+src/
+├── app/
+│   ├── page.tsx           # Catálogo de zapatillas
+│   ├── checkout/page.tsx  # Página de pago
+│   ├── layout.tsx
+│   └── globals.css
+├── components/
+│   ├── Navbar.tsx         # Barra superior y carrito
+│   └── SneakerCard.tsx    # Tarjeta de producto
+├── data/sneakers.ts       # Catálogo (datos de ejemplo)
+└── store/cartStore.ts     # Estado del carrito (Zustand)
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Problemas frecuentes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **`npm install` falla**: comprueba que tienes Node 20+ con `node -v`. Con versiones anteriores Next.js 16 no funciona.
+- **El puerto 3000 está ocupado**: arranca con `npm run dev -- -p 3001`.
+- **No se ven las fotos de las zapatillas**: son enlaces externos a Unsplash, necesitas internet para que carguen.
