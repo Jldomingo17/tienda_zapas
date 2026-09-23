@@ -8,7 +8,7 @@ Proyecto 2ASIR con Victor.
 
 - Node.js 20 o superior (`node -v` para comprobarlo). Descarga: https://nodejs.org
 - npm (viene incluido con Node.js)
-- Conexión a internet la primera vez, para instalar dependencias y cargar las fotos de las zapatillas (están alojadas en Unsplash).
+- Conexión a internet la primera vez, solo para instalar las dependencias. Las fotos de las zapatillas están en el propio repositorio (`public/img/`), así que la tienda funciona sin conexión.
 
 ## Cómo ejecutarlo en local
 
@@ -50,4 +50,3 @@ src/
 
 - **`npm install` falla**: comprueba que tienes Node 20+ con `node -v`. Con versiones anteriores Next.js 16 no funciona.
 - **El puerto 3000 está ocupado**: arranca con `npm run dev -- -p 3001`.
-- **No se ven las fotos de las zapatillas**: son enlaces externos a Unsplash, necesitas internet para que carguen.

@@ -16,7 +16,7 @@ export const sneakers: Sneaker[] = [
     price: 320,
     condition: "9/10",
     size: 42,
-    image: "https://images.unsplash.com/photo-1597045566677-8cf032ed6634?auto=format&fit=crop&q=80&w=800",
+    image: "/img/1.jpg",
   },
   {
     id: "2",
@@ -25,7 +25,7 @@ export const sneakers: Sneaker[] = [
     price: 250,
     condition: "8/10",
     size: 43,
-    image: "https://images.unsplash.com/photo-1575537302964-9630e20e89aa?auto=format&fit=crop&q=80&w=800", // fixed image
+    image: "/img/2.jpg",
   },
   {
     id: "3",
@@ -34,7 +34,7 @@ export const sneakers: Sneaker[] = [
     price: 130,
     condition: "DS (Nuevo)",
     size: 41,
-    image: "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&q=80&w=800",
+    image: "/img/3.jpg",
   },
   {
     id: "4",
@@ -43,7 +43,7 @@ export const sneakers: Sneaker[] = [
     price: 150,
     condition: "8.5/10",
     size: 44,
-    image: "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&q=80&w=800",
+    image: "/img/4.jpg",
   },
   {
     id: "5",
@@ -52,7 +52,7 @@ export const sneakers: Sneaker[] = [
     price: 180,
     condition: "9.5/10",
     size: 42.5,
-    image: "https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&q=80&w=800",
+    image: "/img/5.jpg",
   },
   {
     id: "6",
@@ -61,7 +61,7 @@ export const sneakers: Sneaker[] = [
     price: 90,
     condition: "7/10",
     size: 40,
-    image: "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&q=80&w=800",
+    image: "/img/6.jpg",
   },
   {
     id: "7",
@@ -70,7 +70,7 @@ export const sneakers: Sneaker[] = [
     price: 110,
     condition: "9/10",
     size: 44,
-    image: "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&q=80&w=800",
+    image: "/img/7.jpg",
   },
   {
     id: "8",
@@ -79,7 +79,7 @@ export const sneakers: Sneaker[] = [
     price: 190,
     condition: "8/10",
     size: 41,
-    image: "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?auto=format&fit=crop&q=80&w=800",
+    image: "/img/8.jpg",
   },
   {
     id: "9",
@@ -88,7 +88,7 @@ export const sneakers: Sneaker[] = [
     price: 280,
     condition: "DS (Nuevo)",
     size: 43,
-    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&q=80&w=800",
+    image: "/img/9.jpg",
   },
   {
     id: "10",
@@ -97,7 +97,7 @@ export const sneakers: Sneaker[] = [
     price: 160,
     condition: "9/10",
     size: 42,
-    image: "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?auto=format&fit=crop&q=80&w=800",
+    image: "/img/10.jpg",
   },
   {
     id: "11",
@@ -106,7 +106,7 @@ export const sneakers: Sneaker[] = [
     price: 95,
     condition: "8/10",
     size: 39,
-    image: "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?auto=format&fit=crop&q=80&w=800",
+    image: "/img/11.jpg",
   },
   {
     id: "12",
@@ -115,7 +115,7 @@ export const sneakers: Sneaker[] = [
     price: 1200,
     condition: "9.5/10",
     size: 44.5,
-    image: "https://images.unsplash.com/photo-1612825173281-9a1933785289?auto=format&fit=crop&q=80&w=800",
+    image: "/img/12.jpg",
   },
   {
     id: "13",
@@ -124,7 +124,7 @@ export const sneakers: Sneaker[] = [
     price: 450,
     condition: "8.5/10",
     size: 41.5,
-    image: "https://images.unsplash.com/photo-1584735174965-c750b3e6c0c2?auto=format&fit=crop&q=80&w=800",
+    image: "/img/13.jpg",
   },
   {
     id: "14",
@@ -133,7 +133,7 @@ export const sneakers: Sneaker[] = [
     price: 140,
     condition: "7.5/10",
     size: 42,
-    image: "https://images.unsplash.com/photo-1597045566677-8cf032ed6634?auto=format&fit=crop&q=80&w=800",
+    image: "/img/14.jpg",
   },
   {
     id: "15",
@@ -142,7 +142,7 @@ export const sneakers: Sneaker[] = [
     price: 110,
     condition: "DS (Nuevo)",
     size: 44,
-    image: "https://images.unsplash.com/photo-1575537302964-9630e20e89aa?auto=format&fit=crop&q=80&w=800",
+    image: "/img/15.jpg",
   },
   {
     id: "16",
@@ -151,7 +151,7 @@ export const sneakers: Sneaker[] = [
     price: 190,
     condition: "9/10",
     size: 45,
-    image: "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&q=80&w=800",
+    image: "/img/16.jpg",
   },
   {
     id: "17",
@@ -160,7 +160,7 @@ export const sneakers: Sneaker[] = [
     price: 310,
     condition: "8/10",
     size: 40,
-    image: "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&q=80&w=800",
+    image: "/img/17.jpg",
   },
   {
     id: "18",
@@ -169,7 +169,7 @@ export const sneakers: Sneaker[] = [
     price: 120,
     condition: "9.5/10",
     size: 43,
-    image: "https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&q=80&w=800",
+    image: "/img/18.jpg",
   },
   {
     id: "19",
@@ -178,7 +178,7 @@ export const sneakers: Sneaker[] = [
     price: 105,
     condition: "8.5/10",
     size: 38,
-    image: "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&q=80&w=800",
+    image: "/img/19.jpg",
   },
   {
     id: "20",
@@ -187,6 +187,6 @@ export const sneakers: Sneaker[] = [
     price: 165,
     condition: "8/10",
     size: 42.5,
-    image: "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&q=80&w=800",
+    image: "/img/20.jpg",
   }
 ];
